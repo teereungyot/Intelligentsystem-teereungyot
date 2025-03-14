@@ -40,19 +40,19 @@ if page == "🏠 Homepage":
     st.markdown("""
         <div style="text-align: left;margin-top: 30px;">
         <div class="set-text-card">
-            <h3 style="text-align: center;"> Introduction Intelligent System  </h3>
-            <p style="text-align: center;font-size:20px;margin-top: 30px;"> เว็บไซต์นี้เป็นส่วนหนึ่งของรายวิชา Intelligent System ใช้เพื่อศึกษาการทำ Machine
-            learning & Neural Network และศึกษากระบวนการต่างๆ</p>
+            <h3 style="text-align: center;"> 🔹 Introduction Intelligent System 🔹 </h3>
+            <p style="text-align: center;font-size:20px;margin-top: 30px;"> 📌 เว็บไซต์นี้เป็นส่วนหนึ่งของรายวิชา Intelligent System ใช้เพื่อศึกษาการทำ Machine
+            learning & Neural Network และศึกษากระบวนการต่างๆ 📌 </p>
             <p style="font-size:20px;margin-top: 30px;">- Air Quality Dataset เป็นชุดข้อมูลที่ใช้สำหรับวิเคราะห์และพยากรณ์คุณภาพอากาศ
             โดยรวบรวมข้อมูลเกี่ยวกับระดับมลพิษทางอากาศและสภาพอากาศในแต่ละช่วงเวลา </p>
             <p style="font-size:20px;">- Student Performance Dataset เป็นชุดข้อมูลที่ใช้สำหรับวิเคราะห์ปัจจัยที่ส่งผลต่อผลการเรียนของนักเรียน 
             และสามารถใช้เพื่อพยากรณ์คะแนนสอบสุดท้าย (G3) ของนักเรียนได้</p> 
         </div>    
             <div style=" font-size: 18px; margin-top: 30px" class="set-text-card">
-                <strong style="text-align: left; ">แหล่งข้อมูล</strong>
+                <strong style="text-align: left; ">🔹 แหล่งข้อมูล 🔹</strong>
                 <p style="text-align: left; margin-top: 10px"> <a href="https://archive.ics.uci.edu/ml/datasets/Air+Quality">UCI Machine Learning Repository - Air Quality Data</a>  </p>
                 <p style="text-align: left;"> <a href="https://archive.ics.uci.edu/ml/datasets/Student+Performance">UCI Machine Learning Repository - Student Performance Data </a></p>
-                <b style="text-align: left;">จัดทำโดย</b>
+                <b style="text-align: left;">🔹 จัดทำโดย 🔹</b>
                 <p style="font-size: 18px;margin-top: 10px"> นายเรืองยศ เธียรทิพย์วิบูล รหัสนักศึกษา 6404062636455 </p>
         </div>
     """, unsafe_allow_html=True)
