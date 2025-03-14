@@ -1,0 +1,7 @@
+matplotlib
+streamlit
+pandas
+numpy
+scikit-learn
+tensorflow==2.12.0
+keras==2.12.0
