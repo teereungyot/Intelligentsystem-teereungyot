@@ -30,78 +30,7 @@ if os.path.exists(csv_path_student):
     st.dataframe(df_student)    
 
 # ฝัง CSS ลงในโค้ด
-st.markdown("""
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-        }
-        .st-emotion-cache-13k62yr {
-            position: absolute;
-            background-color: rgb(22, 54, 97);
-            color: rgb(255, 255, 255);
-            inset: 0px;
-            color-scheme: dark;
-            overflow: hidden;
-        }
-        .stSidebar {
-            background-color: rgb(0, 23, 128);
-            color: white;
-        }
-        .stSidebar .css-1d391kg {
-            font-size: 40px;
-            font-weight: bold;
-        }
-        .stRadio > label {
-            font-size: 18px;
-            font-weight: bold;
-            color: white;
-        }
-        h2, h3 {
-            color: silver;
-            background-color: rgb(119, 207, 241);
-        }
-        .st-emotion-cache-1cvow4s h3 {
-            font-size: 1.75rem;
-            padding: 10px;
-            border-radius: 20px;
-        }
-        .st-emotion-cache-1cvow4s h1 {
-            font-size: 30px;
-            color: white;
-        }
-        .stButton>button {
-            background-color: rgb(255, 0, 0);
-            color: white;
-            font-size: 16px;
-            font-weight: bold;
-            padding: 8px 16px;
-            border-radius: 8px;
-        }
-        .stButton>button:hover {
-            background-color: rgb(255, 255, 255);
-        }
-        .stDataFrame {
-            background-color: white;
-            border-radius: 8px;
-            padding: 2px;
-        }
-        .stPlotlyChart, .stImage {
-            background-color: white;
-            padding: 10px;
-            border-radius: 8px;
-        }
-        .stText {
-            font-size: 18px;
-            color: #0D47A1;
-         }
-        .set-text-card {
-            background-color: rgb(255, 255, 255);
-            color: black;
-            border-radius: 20px;
-            padding: 20px;
-        }
-    </style>
-""", unsafe_allow_html=True)
+
 
 # สร้าง Navbar
 page = st.sidebar.radio("## Menu", ["🏠 Homepage", "📖 About Machine Learning", "📖 About Neural Network", "⏳ Explain Dataset", "📊 Machine Learning demo", "🤖 Neural Network demo"])
